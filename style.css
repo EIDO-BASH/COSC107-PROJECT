@@ -61,7 +61,6 @@ img {
 #ti {
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
 }
 #DATE {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -82,4 +81,9 @@ h1 {
 
 .bb {
   background-color: rgb(255, 194, 204);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
